@@ -11,7 +11,7 @@ String path          = "/ma2d2/light.json"; // path to file
 static const uint8_t wifiConnecting = D1;//LED indicator wifi status flashing while connecting
 static const uint8_t wifiOk = D2;//LED indicator wifi status ON if connected
 //static const uint8_t servo1 = D3; //servo 1 op D3
-boolean debug = false;// print debug messages to terminal
+boolean debug = true;// print debug messages to terminal
 String httpResponse;// response from webserver
 Servo servo1;// define servo
 Servo servo2;// define servo
